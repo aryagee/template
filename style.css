@@ -1,0 +1,160 @@
+a:hover{
+    text-decoration: none;
+}
+#header{
+    background-color: #d77035;
+}
+
+h1{
+    font-size: 2rem;
+}
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding: 0%;
+    margin-top:12px ;
+}
+
+#menu li{
+    list-style: none;
+    margin: 0 30px;
+    /* margin: 0%;
+    padding: 0%;
+    margin: auto; */
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+
+#menu li a:hover{
+    color: rgba(0, 0, 0, 0.505);
+}
+
+.row{
+    color: white;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#bheading{
+    background-color:white;
+
+}
+#bpara{
+    background-color: rgb(94, 91, 89);
+    padding-top: 10px;
+}
+#bcontain{
+    padding-top: 90px;
+}
+h2{
+    font-size: 2.5rem;
+    color: black;
+    padding: 10px 0px 0px 5px;
+}
+#banner{
+    width: 100%;
+    height: 50vh;
+    
+    background-image: url(https://images.unsplash.com/photo-1719650592946-55163c4994cb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.srow{
+    color: black !important;
+}
+#servicebox i{
+    color: #d77035 ;
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+.shead{
+    margin: 50px 0px;
+    text-align: center;
+}
+.shead:after{
+    background: #d77035;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#servicebox{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+#sec{
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1701486485374-4437dc2c1c1d?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#secbox{
+    color: white;
+}
+#name{
+    padding: 0%;
+    margin: 0%;
+}
+img{
+    margin-bottom: 10px;
+    height: 160px;
+    margin-left: 0%;
+    
+}
+#sec1box{
+    color: black !important;
+}
+#sech{
+    color: #d77035;
+}
+.rdmore{
+    text-decoration: none;
+    color: #d77035;
+}
+footer{
+    padding-top: 50px;
+    margin-top: 50px;
+    width: 100%;
+    /* height: 50vh; */
+    background-color: rgba(47, 79, 79, 0.925);
+}
+#fend{
+    margin-top: 20px;
+    background-color: rgb(47, 79, 79);
+    
+}
+#contacts{
+    padding-top: 5px;
+}
+#contacts a i{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-left: 10px;
+    display: inline-block;
+    
+}
+#copyr{
+    margin-top: 8px;
+}
